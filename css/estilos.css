@@ -1,0 +1,351 @@
+body{
+    font-family: 'fuentehandsome' ;
+    font-size: 50px;
+    /*'font-family: 'Roboto', sans-serif;'*/
+}
+@font-face {
+    font-family: "fuentehandsome";
+    src: url(../fuentes/Handsome\ Boss\ -\ Personal\ Use.otf);
+}
+
+.containerheader {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+   
+    
+    
+}
+
+
+.containerheader .containerheader1 {
+    display: flex;
+    height:100%; 
+    width: 100%;
+    
+  
+}
+
+.logocontainer{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+}
+
+.logocontainer .logoclase{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.navcontainer{
+    display: flex;
+    height:110px; 
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: #9183a3;
+}   
+
+.containerheader .containerheader1 .boxlista{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    margin-right: 300px;
+}
+
+.containerheader .containerheader1 .boxlista .boton{
+    display: flex;
+    margin-right: 100px;
+    font-size: 68px;
+    text-decoration: none;
+    -webkit-text-fill-color: rgb(5, 4, 4);
+    -webkit-text-stroke: 0.1px rgb(248, 248, 255);
+    align-items: center;
+   
+}
+
+a:hover{
+    justify-content: center;
+    background-color: thistle;
+    width: 60%;
+    transition: .5s;
+}
+
+.containervideo{
+    width: 100%;
+    height: 100%;
+    position: relative; /*Para que los hijos queden dentro del objeto cuando tengan "absolute"*/
+    overflow: hidden;
+}
+
+.boxvideo{
+    width: 100%;
+    height: inherit;/*Heredar la altura del padre "contenedor"*/
+    object-fit:fill; /*fijación del objeto*/
+    vertical-align: top; /*alineación vertical*/
+    transition: 2s;
+    max-height: 85vh;
+}
+
+.containerprincipal{
+    
+    border:solid rgb(80, 77, 85) 1px;
+    box-shadow:rgb(59, 57, 63) inset 0px 0px 2px 1px;
+
+}
+
+
+
+.main-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+    
+   
+}
+
+
+.main-container .container-div .box-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+   }
+
+.boximagen{
+    margin-left: 2rem;
+    margin-top: 5rem;
+    display: flex;
+    border-radius: 150px;
+    border-color: rgb(white, white, white) inset 0px 0px 10px 3px;
+    width: 300px;
+    height: 300px;
+
+    
+}
+
+
+
+ .containertexto{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-right: 8rem;
+    margin-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: solid rgb(114, 58, 112) 1px;
+    box-shadow:#9183a3 10px 0px 0px 5px;
+    
+}
+ 
+.titulobox{
+    margin-top: -1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 130px;
+    letter-spacing: 5px;
+    
+    
+}
+
+.parrafobox{
+    margin-top: -5rem;
+    font-family:'Comfortaa', cursive;
+    display: flex;
+    font-size: 20px;
+
+    
+}
+
+.containerboton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+.containerboton .textoboton{
+    background-color: #9183a3;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow:rgb(196, 195, 130) 0px 0px 5px 2px;
+    letter-spacing: 3px;
+    
+}
+
+.containergaleria{
+    display: flex;
+    margin-top: 200px;
+    width: 100%;
+    height: 100%;
+   
+    
+}
+
+.containergaleria2{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 60px;
+}
+
+.containergaleria .foto1{
+    display: flex;
+    height: 500px;
+    width: 400px;
+    margin-left: 100px;
+    box-shadow:rgb(80, 124, 118) -10px 0px 20px 1px;;
+}
+
+.containergaleria .foto2{
+    display: flex;
+    height: 500px;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 200px;
+    box-shadow:rgb(124, 80, 100) 10px 0px 20px 1px;;
+}
+
+.containergaleria2 .foto3{
+    margin-top: 10px;
+    display: flex;
+    height: 500px;
+    width: 400px;
+    margin-left: 100px;
+    box-shadow:rgb(121, 134, 133) -10px 0px 20px 1px;;
+}
+
+.containergaleria2 .foto4{
+    display: flex;
+    height: 500px;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 200px;
+    box-shadow:rgb(141, 136, 110) 10px 0px 20px 1px;;
+}
+
+.containercontacto{
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -200px;
+}
+
+.containercontacto .titulocontainer{
+    background: #9183a3;
+    border-radius: 10px;
+    border: 3px solid black;
+    letter-spacing: 3px;
+}
+
+.containercontacto .maincontainercontacto{
+    
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    background: #4a4a4a;
+    border-radius: 10px;
+    width:55%;
+    border:3px solid #cfbdf7 ;
+    font-family:'Comfortaa', cursive;
+    font-size: 25px;
+}
+
+.containercontacto .maincontainercontacto .inputnombre{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 5px;
+   
+}
+
+.containercontacto .maincontainercontacto .inputcorreo {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 5px;
+}
+.containercontacto .maincontainercontacto .inputnumero {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.inputbox {
+    justify-content: center;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border:3px solid #9183a3;
+}
+.botonstyle:hover{
+    background: thistle;
+    transition:ease-out .5s ;
+
+
+}
+
+.botonenviar{
+    display: flex;
+    justify-content: center;
+    padding:1rem;
+    height: 4rem;
+    align-items: center;
+    font-family: 'fuentehandsome' ;
+    font-size: 80px;
+}
+
+.botonstyle{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    background: #9183a3;
+    color: rgb(0, 0, 0);
+    display: flex;
+    width: 40%;
+    border:3px solid #020202;
+    border-radius: 5px;
+}
+
+.footercontainer{
+    width: 100%;
+    display: flex;
+    background-color: #9183a3;
+    height: 80px;
+    margin-top: 20px;
+    
+}
+
+.footercontainer .footer{
+    font-family:'Comfortaa', cursive;
+    width: 100%;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.footercontainer .imgfooter{
+    border-radius: 5px;
+    margin-top:10px;
+    margin-left: -250px;
+    
+}
